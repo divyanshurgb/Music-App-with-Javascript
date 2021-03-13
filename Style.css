@@ -1,5 +1,5 @@
 * {
-    margin: 0l
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -27,6 +27,7 @@ header p {
 .pads {
     background: lightblue;
     width: 100%;
+    display: flex;
 }
 
 .pads > div {

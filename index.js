@@ -2,9 +2,9 @@ window.addEventListener('load', () = > {
     const sounds = document.querySelectorAll(".sound");
     const pads = document.querySelectorAll(".pads div");
     //Lets get going with the sound here
-    pads.forEach(pad => {
+    pads.forEach(pad, index) => {
         pad.addEventListener('click', function() {
-            sounds[4];
+            sounds[index].play;
         });
     });
 });
